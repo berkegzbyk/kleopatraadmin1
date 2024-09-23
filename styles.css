@@ -1,0 +1,60 @@
+body {
+    background-color: #121212; /* Koyu arka plan */
+    color: #FABC3F; /* Altın rengi yazı */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #E85C0D; /* Altın rengi kenar */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #C7253E; /* Placeholder rengi */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1E1E1E; /* Koyu gri arka plan */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li.checked {
+    background-color: #C7253E; /* Seçili isimler için farklı renk */
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
